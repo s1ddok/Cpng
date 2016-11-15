@@ -1,0 +1,5 @@
+module Clibpng {
+  header "CSources/include/png.h"
+  link "png"
+  export *
+}
