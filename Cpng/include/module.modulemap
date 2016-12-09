@@ -1,5 +1,5 @@
 module Cpng {
-  umbrella header "png.h"
+  header "png.h"
   link "z"
   link "Cpng"
   export *
