@@ -12,9 +12,9 @@ let package = Package(
     targets: [
         .target(
             name: "Cpng",
-            path: ".",
-            sources: ["Cpng"],
-            publicHeadersPath: "Cpng/include"
+            path: "Cpng",
+            sources: ["src"],
+            publicHeadersPath: "include"
         )
     ]
 )
