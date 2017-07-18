@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/s1ddok/Cpng.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/s1ddok/Cpng.git", :branch => "cocoa-pods" }
 
-  s.source_files  = "Cpng/**/*.{h,c}"
+  s.source_files  = "Cpng/**/*.{h,c,S}"
   s.header_dir = "Cpng/include"
 
   s.libraries = "z"
